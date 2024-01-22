@@ -249,7 +249,7 @@ sb.minimize(
 
 ### Optimization results
 
-By default, SB returns the best vector and objective value found. However, it is also possible to configure it to so it returns all the vectors for each agent with the associated objective value. To do so, the `best_only` parameter of the `minimize` and `maximize` functions must be set to `False` (default is `True`).
+By default, SB returns the best vector and objective value found. However, it is also possible to configure it so it returns all the vectors for each agent with the associated objective value. To do so, the `best_only` parameter of the `minimize` and `maximize` functions must be set to `False` (default is `True`).
 
 ```python
 best_vector, best_value = sb.minimize(matrix, best_only=True)
